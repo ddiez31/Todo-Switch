@@ -3,28 +3,35 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Switch</title>
+    <title>ToDoSwitch</title>
     <link rel="stylesheet" href="css/knacss.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <h1>TODOSWITCH</h1>
-    <form method="post" action="">
-        <div>
+    <h1>TODO-SWITCH</h1>
+
+    <button type="button" id="new" value="new">Créer une nouvelle liste</button>
+
+    <form method="post" action="" value="0">
+        <div class="submit">
             <label for="tache">Tâche à faire</label>
             <input type="text" id="tache" name="tache" />
             <button type="button" class="send">Envoyer</button>
         </div>
         <ul id="todoList">
-            <li><input id='checkbox' type='checkbox' name='checkbox' /> finir exercice formulaire inscription: merci!</li>
-            <li><input id='checkbox' type='checkbox' name='checkbox' /> faire une pause</li>
-            <li><input id='checkbox' type='checkbox' name='checkbox' /> aller manger</li>
+            <li><input id='notchecked' type='checkbox' name='checkbox' /> finir exercice formulaire inscription: merci!</li>
+            <li><input id='notchecked' type='checkbox' name='checkbox' /> faire une pause</li>
+            <li><input id='notchecked' type='checkbox' name='checkbox' /> aller manger</li>
         </ul>
-        <button type="button" id="remove">Supprimer tâches effectuées</button>
+        <div class="btn">
+            <button type="button" id="doing" value="doing">Filtrer tâches à faire</button>
+            <button type="button" id="done" value="done">Filtrer tâches effectuées</button>
+            <button type="button" id="all" value="all">Afficher toutes les tâches</button>
+            <button type="button" id="remove" value="remove">Supprimer tâches effectuées</button>
+        </div>
     </form>
-
 
     <p> </p>
 

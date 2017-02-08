@@ -1,4 +1,5 @@
 li {
+    margin-top: 10px;
     list-style: none;
 }
 
@@ -6,21 +7,36 @@ body {
     background: darkred;
     color: antiquewhite;
     font-family: 'Open Sans', serif;
+    font-size: 12px;
 }
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.submit {
+    margin-bottom: 20px;
+}
+
+#tache {
+    width: 30%;
+}
+
+.send {
+    width: 15%;
 }
 
 .button {
     text-align: center;
 }
 
-.stroked {
-    text-decoration: line-through;
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#remove {
-    margin-top: 20px;
+#new {
+    margin-bottom: 10px;
+    float: right;
 }
