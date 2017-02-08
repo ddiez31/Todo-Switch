@@ -4,6 +4,7 @@ li {
 
 body {
     background: darkblue;
+    font: 'Open Sans', serif;
 }
 
 h1 {
@@ -17,4 +18,8 @@ h1 {
 
 .stroked {
     text-decoration: line-through;
+}
+
+#remove {
+    margin-top: 20px;
 }

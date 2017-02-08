@@ -15,21 +15,18 @@
         <div>
             <label for="tache">Tâche à faire</label>
             <input type="text" id="tache" name="tache" />
-        </div>
-        <div class="button">
             <button type="button" class="send">Envoyer</button>
         </div>
         <ul id="todoList">
-            <li>finir exercice formulaire inscription: merci!</li>
-            <li>faire une pause</li>
-            <li>aller manger</li>
-            <li>faire une partie de counter strike</li>
+            <li><input id='checkbox' type='checkbox' /> finir exercice formulaire inscription: merci!</li>
+            <li><input id='checkbox' type='checkbox' /> faire une pause</li>
+            <li><input id='checkbox' type='checkbox' /> aller manger</li>
         </ul>
-        <button type="button" class="remove">Supprimer tâches effectuées</button>
+        <button type="button" id="remove">Supprimer tâches effectuées</button>
     </form>
 
 
-
+    <p> </p>
 
 </body>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
