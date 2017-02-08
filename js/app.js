@@ -1,14 +1,12 @@
 $(document).ready(function() {
-    var list = $("#tache").val();
-    $(".send").click(function() {
-        console.log(list);
-        return false;
-    });
+            var list = $("#tache").val();
+            $(".send").click(function() {
+                console.log(list);
+                return false;
 
 
+            });
 
-
-
-
-
-});
+            $function(alert) {
+                alert = ("Bienvenue David!")
+            }
