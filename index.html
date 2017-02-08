@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<title>Switch</title>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
 
-		<script src="js/app.js"></script>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Switch</title>
+    <link rel="stylesheet" href="css/knacss.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>TODOSWITCH</h1>
+    <form method="post" action="">
+        <div>
+            <label for="tache">Tâche à faire</label>
+            <input type="text" id="tache" name="tache" />
+        </div>
+        <div class="button">
+            <button type="submit" class="send">Envoyer</button>
+        </div>
+        <ul id="todoList">
+            <li>finir exercice formulaire inscription: merci!</li>
+            <li>faire une pause</li>
+            <li>aller manger</li>
+            <li>faire une partie de counter strike</li>
+        </ul>
+        <button type="submit" class="remove">Supprimer tâches effectuées</button>
+    </form>
+
+
+
+
+</body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="js/app.js"></script>
+
 </html>
