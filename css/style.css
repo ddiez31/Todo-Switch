@@ -38,5 +38,10 @@ h1 {
 
 #new {
     margin-bottom: 10px;
-    float: right;
+}
+
+.favori {
+    height: 5%;
+    width: 5%;
+    font-size: 10px;
 }
